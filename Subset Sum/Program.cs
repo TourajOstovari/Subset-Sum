@@ -26,7 +26,7 @@ namespace Subset_Sum
             Console.WriteLine(@"// SubSet Algorithm .... Developed by Mr. Touraj Ostovari 2020 \\");
             Console.Write("Enter your numbers::");
             Console.ForegroundColor = ConsoleColor.White;
-            Console.Write("[.zero number means you are done. Entered Number range should be in 0 - 255]\n");
+            Console.Write("[.zero number means you are done. Entered Number range should be in 0 - 255 | Good Input is: 5 10 12 13 15 18 & Goal Sum: 30]\n");
             Console.ForegroundColor = ConsoleColor.Green;
             System.Collections.Generic.List<byte> Subs = new System.Collections.Generic.List<byte>();
             Int64 Sum = 0;
